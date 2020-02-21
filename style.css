@@ -1,28 +1,22 @@
+@import 'shop.css';
+
+body {
+    background-image: url("https://img.etimg.com/thumb/msid-69306405,width-643,imgsize-1079862,resizemode-4/coffee.jpg");
+    background-color: #c9b7a3
+   }
+
 h1 {
-    color: rosybrown;
+    background-color: #72a395;
+    border: 1px solid #72a395;
+    border-radius: 5%;
+    color: whitesmoke;
     font-family: 'Fascinate Inline', cursive;
-    font-size: 36px;
+    font-size: 50px;
     margin: 20px;
     text-align: center;
 }
 
-.list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
 
-.shop {
-    background-color: rosybrown;
-    border: 2px solid rosybrown;
-    border-radius: 5%;
-    color: whitesmoke;
-    flex-basis: 15%;
-    font-family: 'Work Sans', sans-serif;
-    margin: 10px;
-    padding: 20px 5px;
-    text-align: center;
-}
 
 
 
